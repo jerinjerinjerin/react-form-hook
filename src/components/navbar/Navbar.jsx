@@ -4,7 +4,6 @@ import { useDispatch } from 'react-redux';
 import "./Navbar.css";
 import { logoutUser } from '../../store/auth/authActions.js'
 import CustomButton from "../ui/CustomButton";
-// import { useEffect } from "react";
 
 const Navbar = () => {
   const location = useLocation();
@@ -16,12 +15,7 @@ const Navbar = () => {
   const storedUser = localStorage.getItem("User");
   const user = storedUser ? JSON.parse(storedUser) : null;
 
-// useEffect(() => {
-//     const isAuthenticated = localStorage.getItem('isAuthenticated');
-//     if (!isAuthenticated || !isAuthenticated === 'true') { 
-//       navigate("/login");
-//     }
-//   }, [navigate]);
+
  
 
   const handleLogout = () => {

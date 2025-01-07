@@ -1,0 +1,24 @@
+.navbar-container {
+    background: linear-gradient(to right, #007bff, #6f42c1);
+    z-index: 1;
+    position: sticky;
+    top: 0; 
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 80px;
+  }
+  
+  .navbar-text {
+    color: white; 
+    font-size: 2rem; 
+    font-weight: bold; 
+  }
+
+  .navbar-width {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+  }
+  
